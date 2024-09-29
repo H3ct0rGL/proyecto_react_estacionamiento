@@ -7,8 +7,25 @@ import './index.css';
 const root = ReactDOM.createRoot(
   document.getElementById('root')
 );
-const element = <h1>Hello, world</h1>;
-root.render(element);
+
+function MyButton() {
+  return (
+    <button>
+      Soy un botón
+    </button>
+  );
+}
+
+export default function MyApp() {
+  const element = <h1>Hello, world</h1>;
+  return (
+    <div>
+      <h1>{element}</h1>
+      <MyButton />
+    </div>
+  );
+}
+
 /*
 root.render(
   <React.StrictMode>
