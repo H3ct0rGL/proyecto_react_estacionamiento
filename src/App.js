@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './bootstrap/dist/css/bootstrap.min.css';
+//import './bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 /*
 import UsuarioList from './componentes/Usuarios/UsuarioList';
@@ -13,9 +13,10 @@ import LoginForm, {} from "./componentes/LoginForm"
 */
 function App() {
   return (
-    <p>¡Hola, mundo!</p>
-    /*
     <div className="App">
+      <div className="App-hader">
+        <p>¡Hola, mundo!</p>
+      /*
       <LoginForm></LoginForm>
        <div className="App">
         <div className="container">
@@ -28,8 +29,9 @@ function App() {
           <LogList />
         </div>
       </div>
+      */
+      </div>
     </div>
-    */
   );
 }
 
