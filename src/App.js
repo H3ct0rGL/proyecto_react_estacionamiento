@@ -16,20 +16,6 @@ function App() {
     <div className="App">
       <div className="App-hader">
         <p>¡Hola, mundo!</p>
-      /*
-      <LoginForm></LoginForm>
-       <div className="App">
-        <div className="container">
-          <h1>Sistema de Gestión de Estacionamientos</h1>
-          <UsuarioList />
-          <EmpleadoList />
-          <EstacionamientoList />
-          <ReservaList />
-          <LiberacionList />
-          <LogList />
-        </div>
-      </div>
-      */
       </div>
     </div>
   );
