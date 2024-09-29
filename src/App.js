@@ -12,6 +12,8 @@ import LoginForm, {} from "./componentes/LoginForm"
 
 function App() {
   return (
+    <p>¡Hola, mundo!</p>
+    /*
     <div className="App">
       <LoginForm></LoginForm>
        <div className="App">
@@ -26,6 +28,7 @@ function App() {
         </div>
       </div>
     </div>
+    */
   );
 }
 
